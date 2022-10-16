@@ -19,7 +19,7 @@ If you need the fonts to be available system-wide, you'll need to copy them to 
 
 You can confirm they are installed correctly by running `fc-list | grep "<name-of-font>"`
 
-> [!NOTE]
+> [!warning]
 > _fc-cache_ comes with the package _fontconfig_ on latest Ubuntu server versions, so don't forget your `sudo apt-get install fontconfig` if your system cannot find _fc-cache_ And yes, _fc-cache_ also scans `/usr/local/share/fonts`.
 
 You may need to restart some programs, like OpenOffice Writer, before they actually show the new fonts (usually such programs are caching the font list when they start up).
